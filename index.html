@@ -1,0 +1,74 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Five9 Demo</title>
+    <link rel="icon" href="data:,">
+    <link href="./client.css" rel="stylesheet">
+</head>
+<body class="bg-primary-100">
+    <div id="root"><div class="h-screen">
+    <div class="relative z-10 grid grid-cols-7 gap-x-4 items-center justify-end h-16 text-white" style="background-color: #003B5D;">
+        <div class="flex items-center justify-center col-span-5 pl-64">
+            <img class="h-8" src="https://app-atl.five9.com/five9_clients/agent.v13.0.183/images/five9-logo-reverse.png" alt="five9logo" />
+        </div>
+        <div class="flex col-span-2" style="opacity: 0.65;">
+            <div class="w-full flex gap-x-4 justify-end pr-4">
+                <div class="col-span-1">
+                    <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 448 512" class="text-3xl text-white" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M448 360V24c0-13.3-10.7-24-24-24H96C43 0 0 43 0 96v320c0 53 43 96 96 96h328c13.3 0 24-10.7 24-24v-16c0-7.5-3.5-14.3-8.9-18.7-4.2-15.4-4.2-59.3 0-74.7 5.4-4.3 8.9-11.1 8.9-18.6zM128 134c0-3.3 2.7-6 6-6h212c3.3 0 6 2.7 6 6v20c0 3.3-2.7 6-6 6H134c-3.3 0-6-2.7-6-6v-20zm0 64c0-3.3 2.7-6 6-6h212c3.3 0 6 2.7 6 6v20c0 3.3-2.7 6-6 6H134c-3.3 0-6-2.7-6-6v-20zm253.4 250H96c-17.7 0-32-14.3-32-32 0-17.6 14.4-32 32-32h285.4c-1.9 17.1-1.9 46.9 0 64z"></path></svg>
+                </div>
+                <div class="col-span-1">
+                    <svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" class="text-3xl text-white" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path stroke="none" d="M0 0h24v24H0z" fill="none"></path><path d="M5.821 4.91c3.898 -2.765 9.469 -2.539 13.073 .536c3.667 3.127 4.168 8.238 1.152 11.897c-2.842 3.447 -7.965 4.583 -12.231 2.805l-.232 -.101l-4.375 .931l-.075 .013l-.11 .009l-.113 -.004l-.044 -.005l-.11 -.02l-.105 -.034l-.1 -.044l-.076 -.042l-.108 -.077l-.081 -.074l-.073 -.083l-.053 -.075l-.065 -.115l-.042 -.106l-.031 -.113l-.013 -.075l-.009 -.11l.004 -.113l.005 -.044l.02 -.11l.022 -.072l1.15 -3.451l-.022 -.036c-2.21 -3.747 -1.209 -8.392 2.411 -11.118l.23 -.168z" stroke-width="0" fill="currentColor"></path></svg>
+                </div>
+                <div class="col-span-1">
+                    <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 448 512" class="text-3xl text-white" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M128 0c17.7 0 32 14.3 32 32V64H288V32c0-17.7 14.3-32 32-32s32 14.3 32 32V64h48c26.5 0 48 21.5 48 48v48H0V112C0 85.5 21.5 64 48 64H96V32c0-17.7 14.3-32 32-32zM0 192H448V464c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V192zm64 80v32c0 8.8 7.2 16 16 16h32c8.8 0 16-7.2 16-16V272c0-8.8-7.2-16-16-16H80c-8.8 0-16 7.2-16 16zm128 0v32c0 8.8 7.2 16 16 16h32c8.8 0 16-7.2 16-16V272c0-8.8-7.2-16-16-16H208c-8.8 0-16 7.2-16 16zm144-16c-8.8 0-16 7.2-16 16v32c0 8.8 7.2 16 16 16h32c8.8 0 16-7.2 16-16V272c0-8.8-7.2-16-16-16H336zM64 400v32c0 8.8 7.2 16 16 16h32c8.8 0 16-7.2 16-16V400c0-8.8-7.2-16-16-16H80c-8.8 0-16 7.2-16 16zm144-16c-8.8 0-16 7.2-16 16v32c0 8.8 7.2 16 16 16h32c8.8 0 16-7.2 16-16V400c0-8.8-7.2-16-16-16H208zm112 16v32c0 8.8 7.2 16 16 16h32c8.8 0 16-7.2 16-16V400c0-8.8-7.2-16-16-16H336c-8.8 0-16 7.2-16 16z"></path></svg>
+                </div>
+            </div>
+            <div class="w-full flex gap-x-4 justify-end pr-4">
+                <div class="flex items-center justify-center gap-x-1">Actions <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" class="text-2xl text-white" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M11.646 15.146 5.854 9.354a.5.5 0 0 1 .353-.854h11.586a.5.5 0 0 1 .353.854l-5.793 5.792a.5.5 0 0 1-.707 0Z"></path></svg></div>
+                <div class="flex items-center justify-center gap-x-1">Help <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" class="text-2xl text-white" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M11.646 15.146 5.854 9.354a.5.5 0 0 1 .353-.854h11.586a.5.5 0 0 1 .353.854l-5.793 5.792a.5.5 0 0 1-.707 0Z"></path></svg></div>
+                <div class="flex items-center justify-center gap-x-1">Fabio <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" class="text-2xl text-white" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M11.646 15.146 5.854 9.354a.5.5 0 0 1 .353-.854h11.586a.5.5 0 0 1 .353.854l-5.793 5.792a.5.5 0 0 1-.707 0Z"></path></svg></div>
+            </div>
+        </div>
+    </div>
+    <div class="ml-20">
+        <iframe title="symtrain" allow="camera; microphone; fullscreen; display-capture; autoplay" src="https://dev-red.symtrain.com/symtrain123456" frameborder="0" width="100%" height="900"></iframe>
+    </div>
+    <div class="h-screen w-20 fixed left-0 top-0 z-0 pt-20" style="background-color: #22282D;">
+        <ul class="text-white text-xs">
+            <li class="flex flex-col items-center justify-center h-20">
+                <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" class="text-3xl text-white" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                    <path fill="none" d="M0 0h24v24H0z"></path>
+                    <path d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z"></path>
+                </svg>
+                Home
+            </li>
+            <li class="flex flex-col items-center justify-center h-20">
+                <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 16 16" class="text-3xl text-white" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"></path></svg>
+                Call
+            </li>
+            <li class="flex flex-col items-center justify-center h-20">
+                <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" class="text-3xl text-white" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M17.5 8a4.505 4.505 0 0 0-4.5 4.5c0 .925.281 1.784.762 2.5h-3.523c.48-.716.761-1.575.761-2.5C11 10.019 8.981 8 6.5 8S2 10.019 2 12.5 4.019 17 6.5 17c.171 0 .334-.032.5-.051V17h11v-.051c2.244-.252 4-2.139 4-4.449 0-2.481-2.019-4.5-4.5-4.5zM4 12.5C4 11.121 5.121 10 6.5 10S9 11.121 9 12.5 7.879 15 6.5 15 4 13.879 4 12.5zM17.5 15c-1.379 0-2.5-1.121-2.5-2.5s1.121-2.5 2.5-2.5 2.5 1.121 2.5 2.5-1.121 2.5-2.5 2.5z"></path></svg>
+                Voicemail
+            </li>
+            <li class="flex flex-col items-center justify-center h-20">
+                <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 1024 1024" class="text-3xl text-white" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M928 444H820V330.4c0-17.7-14.3-32-32-32H473L355.7 186.2a8.15 8.15 0 0 0-5.5-2.2H96c-17.7 0-32 14.3-32 32v592c0 17.7 14.3 32 32 32h698c13 0 24.8-7.9 29.7-20l134-332c1.5-3.8 2.3-7.9 2.3-12 0-17.7-14.3-32-32-32zM136 256h188.5l119.6 114.4H748V444H238c-13 0-24.8 7.9-29.7 20L136 643.2V256zm635.3 512H159l103.3-256h612.4L771.3 768z"></path></svg>
+                Contacts
+            </li>
+            <li class="flex flex-col items-center justify-center h-20">
+                <svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" class="text-3xl text-white" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+                My Activity
+            </li>
+            <li class="flex flex-col items-center justify-center h-20" style="background-color: #288DC1;">
+                <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 32 32" class="text-4xl text-white" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M 13 4 C 11.089844 4 9.542969 5.386719 9.15625 7.1875 C 6.824219 7.605469 5 9.550781 5 12 C 5 12.246094 5.027344 12.464844 5.0625 12.6875 C 4.417969 13.636719 4 14.753906 4 16 C 4 17.796875 4.894531 19.308594 6.15625 20.40625 C 6.066406 20.761719 6 21.117188 6 21.5 C 6 23.972656 8.027344 26 10.5 26 C 10.527344 26 10.539063 26 10.5625 26 C 11.144531 27.128906 12.152344 28 13.5 28 C 14.476563 28 15.363281 27.589844 16 26.9375 C 16.636719 27.589844 17.523438 28 18.5 28 C 19.847656 28 20.855469 27.128906 21.4375 26 C 21.460938 26 21.472656 26 21.5 26 C 23.847656 26 25.773438 24.171875 25.96875 21.875 L 26 21.875 C 26 21.8125 25.972656 21.75 25.96875 21.6875 C 25.972656 21.625 26 21.5625 26 21.5 C 26 21.128906 25.867188 20.8125 25.78125 20.46875 C 27.078125 19.367188 28 17.828125 28 16 C 28 14.753906 27.582031 13.636719 26.9375 12.6875 C 26.972656 12.464844 27 12.246094 27 12 C 27 9.550781 25.175781 7.605469 22.84375 7.1875 C 22.457031 5.386719 20.910156 4 19 4 C 17.800781 4 16.734375 4.558594 16 5.40625 C 15.265625 4.558594 14.199219 4 13 4 Z M 13 6 C 14.117188 6 15 6.882813 15 8 L 15 10 C 15 11.667969 13.667969 13 12 13 L 12 15 C 13.132813 15 14.160156 14.609375 15 13.96875 L 15 24.5 C 15 25.339844 14.339844 26 13.5 26 C 12.753906 26 12.15625 25.484375 12.03125 24.78125 L 11.84375 23.8125 L 10.875 23.96875 C 10.699219 23.996094 10.589844 24 10.5 24 C 9.109375 24 8 22.890625 8 21.5 C 8 21.191406 8.050781 20.902344 8.15625 20.625 C 8.164063 20.601563 8.179688 20.585938 8.1875 20.5625 C 8.496094 19.792969 9.167969 19.230469 10 19.0625 L 9.59375 17.09375 C 8.550781 17.304688 7.644531 17.859375 7 18.65625 C 6.371094 17.953125 6 17.023438 6 16 C 6 15.0625 6.320313 14.226563 6.875 13.53125 L 7.1875 13.15625 L 7.09375 12.65625 C 7.039063 12.421875 7 12.214844 7 12 C 7 10.332031 8.332031 9 10 9 L 11 9 L 11 8 C 11 6.882813 11.882813 6 13 6 Z M 19 6 C 20.117188 6 21 6.882813 21 8 L 21 9 L 22 9 C 23.667969 9 25 10.332031 25 12 C 25 12.214844 24.960938 12.421875 24.90625 12.65625 L 24.8125 13.15625 L 25.125 13.53125 C 25.679688 14.226563 26 15.0625 26 16 C 26 17.199219 25.488281 18.269531 24.65625 19 C 23.972656 18.394531 23.101563 18 22.125 18 C 21.179688 18 20.328125 18.335938 19.65625 18.90625 L 20.9375 20.4375 C 21.261719 20.164063 21.660156 20 22.125 20 C 23.089844 20 23.859375 20.722656 23.96875 21.65625 C 23.886719 22.972656 22.835938 24 21.5 24 C 21.410156 24 21.300781 23.996094 21.125 23.96875 L 20.15625 23.8125 L 19.96875 24.78125 C 19.84375 25.484375 19.246094 26 18.5 26 C 17.660156 26 17 25.339844 17 24.5 L 17 13.96875 C 17.839844 14.609375 18.867188 15 20 15 L 20 13 C 18.332031 13 17 11.667969 17 10 L 17 8 C 17 6.882813 17.882813 6 19 6 Z"></path></svg>
+                Symtrain
+            </li>
+        </ul>
+    </div>
+</div>
+</div>
+</body>
+</html>
